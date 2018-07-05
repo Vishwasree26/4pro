@@ -1,0 +1,35 @@
+.container{
+	width: 100%;
+	
+}
+.left{
+	width: 33%;
+	background-color: "grey";
+	float: left;
+	height: 50%;
+}
+.left{
+	width: 34%;
+	background-color: "grey";
+	float: left;
+	height: 50%;
+}
+.right{
+	width: 33%;
+	background-color: "green";
+	float: right;
+	height: 50%;
+}
+
+@media screen and (max-width: 400px)
+{
+	.left{
+		width: 100%;
+}
+.left{
+	width: 100%;
+}
+.right{
+	width: 100%;
+}
+}
